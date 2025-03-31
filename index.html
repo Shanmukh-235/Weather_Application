@@ -1,16 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather Appliction</title>
+    <title>Weather Application</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./assets/drizzle.png">
 </head>
+
 <body>
     <div class="card">
         <div class="search">
             <input type="text" placeholder="Enter city name" spellcheck="false">
-             <button><img src="./assets/search.png" alt="search icon"></button>
+            <button><img src="./assets/search.png" alt="search icon"></button>
+        </div>
+        <div class="error">
+            <p>Invalid city name</p>
         </div>
         <div class="weather">
             <img src="./assets/rain.png" alt="rain" class="weather-icon">
@@ -27,12 +33,13 @@
                 <div class="col">
                     <img src="./assets/wind.png" alt="wind">
                     <div>
-                        <p class="wind">15 km/hr</p>
+                        <p class="wind">15 km/h</p>
                         <p>Wind Speed</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <script src="./app.js"></script>
 </body>
 </html>
