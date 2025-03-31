@@ -7,7 +7,22 @@
 }
 
 body {
-    background: #222;
+    background-image: linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%);
+    /* background:  linear-gradient(135deg, #360033, #0b8793); */
+    /* background:  linear-gradient(135deg, #fa709a, #fee140); */
+    /* background:  linear-gradient(135deg, #43e97b, #38f9d7); */
+    /* background:  linear-gradient(135deg, #43e97b, #fee140); ---*/
+    /* background:  linear-gradient(135deg, #00F260, #0575E6); */
+    /* background:  linear-gradient(135deg, #FDC830, #F37335); */
+    /* background: linear-gradient(135deg, #ed213a, #93291e);  */
+    /* background: linear-gradient(135deg, #000428, #004e92); */
+    /* background: linear-gradient(135deg, #00feba, #5b548a); */
+    /* background: linear-gradient(135deg, #8E2DE2, #4A00E0); */
+    /* background: linear-gradient(135deg, #DA4453, #89216B); */
+    /* background: linear-gradient(135deg, #333333, #dd1818); */
+    /* background: linear-gradient(135deg, #0f0c29, #302b63, #24243e); */
+    /* background: linear-gradient(135deg, #FDC830, #F37335); */
+    /* background: linear-gradient(135deg, #FC466B, #3F5EFB); */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,12 +33,15 @@ body {
 .card {
     width: 100%;
     max-width: 450px;
-    background: linear-gradient(135deg, #00feba, #5b548a);
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent white */
+    backdrop-filter: blur(10px); /* Glass effect */
+    -webkit-backdrop-filter: blur(10px);
     color: #fff;
     border-radius: 20px;
     padding: 35px 30px;
     text-align: center;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); */
+    border: 2px solid #fff;
 }
 
 .search {
