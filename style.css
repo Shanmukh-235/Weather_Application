@@ -134,7 +134,7 @@ body {
 }
 
 /* 🔹 Mobile Responsive */
-@media (max-width: 500px) {
+@media (max-width: 450px) {
     .card {
         max-width: 100%;
         padding: 25px;
